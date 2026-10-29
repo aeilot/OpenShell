@@ -48,6 +48,7 @@ impl<'a> HttpActivityBuilder<'a, MissingHttpContext> {
     ///     sandbox_id: String::new(),
     ///     sandbox_name: String::new(),
     ///     container_image: String::new(),
+    ///     container_image_uid: None,
     ///     hostname: String::new(),
     ///     product_version: String::new(),
     ///     proxy_ip: "127.0.0.1".parse().unwrap(),
